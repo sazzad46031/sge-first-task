@@ -8,7 +8,7 @@ const Connection = () => {
                 study abroad community</p>
             <button className='text-[#1F1F1F] bg-white rounded-[32px] mulish-regular lg:text-[21px] text-[14px] px-[89px] py-2 mb-[41px]'>Talk to a Counsellor</button>
             <div className='absolute -left-20 -top-40 hidden lg:block'>
-                <img src="./image1.png" alt="" />
+                <img src="./assets/image1.png" alt="" />
             </div>    
         </div>
     );

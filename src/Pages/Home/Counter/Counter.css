@@ -1,0 +1,28 @@
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.mulish-regular {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+.child-one {
+    width: 103px;
+}
+.child-two {
+    width: 132px;
+}
+.child-three{
+    width: 210px;
+}
+.child-four{
+    width: 138px;
+}
+.child-five{
+    width: 153px;
+}
+.child-six{
+    width: 177px;
+}

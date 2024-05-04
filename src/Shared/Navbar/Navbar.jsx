@@ -32,7 +32,7 @@ const Navbar = () => {
         <nav className='z-50'>
             <div className='h-10vh flex justify-between lg:py-5 px-5 py-5'>
                 <div className='flex items-center flex-1'>
-                    <img src="./logo.png" alt="logo" />
+                    <img src="./assets/logo.png" alt="logo" />
                 </div>
                 <div className="lg:flex md:flex justify-center flex-1 items-center font-normal hidden">
                     <ul className='flex gap-8 items-center mr-16 text-[15px]'>

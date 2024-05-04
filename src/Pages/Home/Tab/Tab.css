@@ -36,12 +36,12 @@ body{
     display: block;
 }
 
-label:active,
-label:focus-within,
-label:target,
-label:focus-visible,
-label:focus,
-label:checked
+.label:active,
+.label:focus-within,
+.label:target,
+.label:focus-visible,
+.label:focus,
+.label:checked
  {
     background: #004ACB;
     color: #ffffff;
@@ -54,7 +54,7 @@ label:checked
     .div-inputs {
         display: none;
     }
-    label{
+    .label{
         display: none;
     }
 }
