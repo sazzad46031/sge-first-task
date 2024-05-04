@@ -13,12 +13,12 @@ const Banner = () => {
 
 
 
-        // text.innerHTML = text.innerText
-        //     .split("")
-        //     .map(
-        //         (char, i) => `<span style="transform:rotate(${i * 5.8}deg)">${char}</span>`
-        //     )
-        //     .join("");
+        text.innerHTML = text.innerText
+            .split("")
+            .map(
+                (char, i) => `<span style="transform:rotate(${i * 15.8}deg)">${char}</span>`
+            )
+            .join("");
 
     }, []);
 

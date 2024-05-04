@@ -34,7 +34,7 @@ const Navbar = () => {
                 <div className='flex items-center flex-1'>
                     <img src="./logo.png" alt="logo" />
                 </div>
-                <div className="lg:flex md:flex flex-1 justify-center items-center font-normal hidden">
+                <div className="lg:flex md:flex justify-center flex-1 items-center font-normal hidden">
                     <ul className='flex gap-8 items-center mr-16 text-[15px]'>
                         <Link className="flex items-center gap-2">
                         <div className="group">

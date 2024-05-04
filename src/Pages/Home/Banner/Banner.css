@@ -135,7 +135,8 @@ p {
 
 .circle {
     position: absolute;
-    bottom: -50px;
+    bottom: -75px;
+    left: 840px;
     width: var(--d-outer);
     height: var(--d-outer);
     border-radius: 50%;
@@ -157,7 +158,7 @@ p {
     position: absolute;
     width: 100%;
     height: 100%;
-    /* animation: rotateText 10s linear infinite; */
+    animation: rotateText 10s linear infinite;
 
 }
 
