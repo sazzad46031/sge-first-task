@@ -9,7 +9,7 @@ const Banner = () => {
         
         window.onload = () => {
 
-            const text = document.querySelector(".text p");
+            const text = document.querySelector(".text-two p");
     
             text.innerHTML = text.innerText
                 .split("")
@@ -50,12 +50,12 @@ const Banner = () => {
             <div className='hidden lg:block'>
                 <div className="circle">
                     <div className="icon"><FaArrowDown></FaArrowDown></div>
-                    <div className="text-one">
+                    <div className="text-two">
                         <p className='poppins-semibold'>DREAM BIG STUDY ABROAD.</p>
                     </div>
                 </div>
             </div>
-            <script src='Banner-old.js'></script>
+            
         </div>
     );
 };
