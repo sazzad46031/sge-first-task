@@ -2,7 +2,7 @@ import './Tab.css'
 
 const Tab = () => {
     return (
-        <div className='pt-[129px] max-w-screen-xl mx-auto'>
+        <div className='pt-[129px] max-w-[1154px] mx-auto lg:pb-[96px] pb-[28px]'>
             <div className='text-center mb-[57px]'>
                 <label className='inter-bold text-[20px] rounded-[32px] py-[10px] px-[120px] bg-white text-[#004ACB] mr-[22px] label' htmlFor="students">For Students</label>
                 <label className='inter-bold text-[20px] rounded-[32px] py-[10px] px-[120px] bg-white text-[#004ACB] label' htmlFor="partners">For Partners</label>

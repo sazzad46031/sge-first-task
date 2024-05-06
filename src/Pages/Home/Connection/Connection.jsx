@@ -2,7 +2,7 @@ import './Connection.css'
 
 const Connection = () => {
     return (
-        <div className='max-w-screen-xl lg:mx-auto text-center bg-one relative my-[175px] mx-6'>
+        <div className='max-w-[1154px] lg:mx-auto text-center bg-one relative lg:my-[175px] my-[64px] mx-6'>
             <h2 className='outfit-bold lg:text-5xl text-[38px] text-white pt-[64px] lg:pb-[18px] pb-[9px]'>Ready to take the leap?</h2>
             <p className='inter-regular lg:text-2xl text-[14px] text-white lg:pb-[33px] pb-[21px]'>Connect with our finest counsellors and biggest<br></br>
                 study abroad community</p>

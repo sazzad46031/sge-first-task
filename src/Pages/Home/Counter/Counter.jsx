@@ -6,12 +6,12 @@ import { useState } from "react";
 const Counter = () => {
     const [counterState, setCounterState] = useState(false)
     return (
-        <div className="bg-[#0522E6] max-w-screen-xl mx-auto rounded-[64px] mt-[143px] lg:relative lg:z-20">
+        <div className="bg-gradient-two max-w-[1154px] mx-auto rounded-[64px] lg:mt-[143px] mt-[28px] lg:mb-[141px] mb-[28px] lg:relative lg:z-20">
             <div className="flex flex-col lg:block">
                 <div className="lg:absolute lg:-top-24 lg:-z-10 order-2">
                     <img src="./assets/cuate1.png" alt="cuate" />
                 </div>
-                <h2 className="poppins-bold text-[67px] py-[101px] text-right pr-[66px] order-1">Our Core Strength</h2>
+                <h2 className="poppins-bold text-gradient text-[67px] py-[101px] text-right pr-[66px] order-1">Our Core Strength</h2>
             </div>
             <ScrollTrigger onEnter={()=> setCounterState(true)} onExit={()=> setCounterState(false)}>
                 <div className="flex justify-around flex-wrap gap-10 pb-[46px]">
@@ -59,7 +59,9 @@ const Counter = () => {
                     </div>
                 </div>
             </ScrollTrigger>
-
+            <div className="absolute -bottom-36 lg:block hidden">
+                <img className="text-red-700" src="./assets/bg-shape2.png" alt="" />
+            </div>
         </div>
     );
 };

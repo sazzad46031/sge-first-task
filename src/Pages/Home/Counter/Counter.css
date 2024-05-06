@@ -26,3 +26,7 @@
 .child-six{
     width: 177px;
 }
+
+.bg-gradient-two{
+    background: linear-gradient(80.71deg, #3187FC 39.24%, #0522E6 95.08%);
+}

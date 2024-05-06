@@ -28,16 +28,16 @@ const Navbar = () => {
         </div>
     </>
     return (
-        <div className="max-w-screen-2xl mx-auto">
+        <div className="max-w-[1154px] mx-auto">
         <nav className='z-50'>
-            <div className='h-10vh flex justify-between lg:py-5 px-5 py-5'>
-                <div className='flex items-center flex-1'>
+            <div className='h-10vh flex justify-between lg:py-5 lg:px-0 px-5 py-5'>
+                <div className='flex items-center'>
                     <img src="./assets/logo.png" alt="logo" />
                 </div>
-                <div className="lg:flex md:flex justify-center flex-1 items-center font-normal hidden">
+                <div className="lg:flex justify-center items-center font-normal hidden">
                     <ul className='flex gap-8 items-center mr-16 text-[15px]'>
                         <Link className="flex items-center gap-2">
-                        <div className="group">
+                        <div className="group text-[15px]">
                                 <div className="flex items-center gap-2">
                                     <button className="inter-semibold text-[#041527] cursor-pointer">Study Destination</button>
                                     <span><IoIosArrowDown></IoIosArrowDown></span>
@@ -197,7 +197,7 @@ const Navbar = () => {
                             </div>
                         </Link>
                         
-                        <button className="text-white px-[25px] py-[10px] bg-[#93C5FD] hover:bg-[#004ACB] rounded-lg">Login<span className="hidden hover:flex"><FaArrowRight></FaArrowRight></span></button>
+                        <button className="text-white px-[25px] py-[10px] bg-[#93C5FD] hover:bg-[#004ACB] rounded-lg">Login<FaArrowRight className="hidden hover:inline-flex"></FaArrowRight></button>
                     </ul>
                 </div>
                 <div>

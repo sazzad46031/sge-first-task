@@ -9,14 +9,14 @@ const Footer = () => {
                         <path d="M722.251 0.000199968C435.932 -0.110768 0 46 0 46H1440C1440 46 1006.84 0.110497 722.251 0.000199968Z" fill="#081831" />
                     </svg>
                 </div>
-                <div className='bg-[#081831] px-4'>
-                    <div className='footer-1 text-center max-w-screen-xl mx-auto'>
+                <div className='bg-[#081831] px-4 relative'>
+                    <div className='footer-1 text-center max-w-[1154px] mx-auto'>
                         <h2 className='poppins-semibold text-[21px] text-white mb-4'>Our Students are Our Reference</h2>
                         <img className='mx-auto mb-[22px]' src="./assets/logo2.png" alt="logo" />
 
                     </div>
-                    <hr className='max-w-screen-xl mx-auto'></hr>
-                    <div className='footer-2 leading-[150%] text-[#CACACA] max-w-screen-xl mx-auto mt-[35px] flex flex-col lg:flex-row lg:gap-[117px]'>
+                    <hr className='max-w-[1154px] mx-auto'></hr>
+                    <div className='footer-2 leading-[150%] text-[#CACACA] max-w-[1154px] mx-auto mt-[35px] flex flex-col lg:flex-row lg:gap-[117px]'>
                         <div className='w-[231px]'>
                             <h2 className='mulish-regular text-base mb-4'>About Shabuj Global Education</h2>
                             <p className='mulish-regular text-base'>Lorem ipsum dolor sit amet consectetur. Amet commodo bibendum ac sem molestie. Nisi imperdiet orci nulla in. Convallis eu ligula neque id varius sit lacus et. Pellentesque porta interdum morbi enim ultrices egestas aliquet amet. Aliquet elit amet porttitor posuere.</p>
@@ -59,8 +59,8 @@ const Footer = () => {
                         </div>
 
                     </div>
-                    <hr className='max-w-screen-xl mx-auto'></hr>
-                    <div className='footer-3 leading-[150%] max-w-screen-xl mx-auto lg:px-[230px] px-6  '>
+                    <hr className='max-w-[1154px] mx-auto'></hr>
+                    <div className='footer-3 leading-[150%] max-w-[1154px] mx-auto lg:px-[230px] px-6  '>
                         <h2 className='lg:mulish-bold mulish-regular uppercase text-base text-center text-[#CACACA] mb-6 mt-4'>Our offices</h2>
                         <div className='lg:flex block gap-[23px]'>
                             <h3 className='mulish-bold text-base text-[#5093FB] text-center lg:text-left mb-[18px]'>Head Office (London)</h3>
@@ -87,8 +87,8 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <hr className='max-w-screen-xl mx-auto'></hr>
-                    <div className='footer-4 max-w-screen-xl mx-auto pb-6 flex flex-col lg:flex-row justify-between items-center'>
+                    <hr className='max-w-[1154px] mx-auto'></hr>
+                    <div className='footer-4 max-w-[1154px] mx-auto pb-6 flex flex-col lg:flex-row justify-between items-center'>
                         <div className='flex gap-[26px] mt-[21px]'>
                             <img src="./assets/facebook.png" alt="facebook" />
                             <img src="./assets/instagram.png" alt="instagram" />
@@ -101,8 +101,12 @@ const Footer = () => {
                             <p className='mulish-regular text-[14px] text-[#CACACA]'>Privacy Policy</p>
                         </div>
                     </div>
+                    <div className='absolute bottom-0 left-48 lg:block hidden'>
+                        <img src="./assets/vector7.png" alt="" />
+                    </div>
                 </div>
             </div>
+
         </div>
     );
 };

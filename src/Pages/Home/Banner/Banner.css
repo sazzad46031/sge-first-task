@@ -63,7 +63,7 @@
 
 .buttons-group button:after {
     content: "";
-    background-image: url('./assets/arrow.svg');
+    background-image: url('./arrow.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

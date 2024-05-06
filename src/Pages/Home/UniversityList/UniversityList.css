@@ -1,0 +1,75 @@
+.section{
+    overflow: hidden;
+}
+.ticker-items {
+  flex: 1 0 auto;
+}
+.ticker-items div {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ticker-items img {
+  min-width: 120px;
+  max-width: 240px;
+  height: auto;
+}
+.ticker-one > div{
+    animation: animate 40s -40s linear infinite;
+    will-change: transform;
+}
+.ticker-one > div:last-child {
+    animation: animate2 40s -20s linear infinite;
+}
+.ticker-two > div{
+    animation: animate3 40s -40s linear infinite;
+    will-change: transform;
+   
+}
+.ticker-two > div:last-child {
+  animation: animate4 40s -20s linear infinite;
+}
+
+.ticker-one:hover > div, .ticker-two:hover > div {
+  -webkit-animation-play-state: paused;
+   -moz-animation-play-state: paused;
+   -ms-animation-play-state: paused;
+   -o-animation-play-state: paused;  
+   animation-play-state: paused;
+}
+@keyframes animate {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+
+
+  @keyframes animate2 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }  
+  @keyframes animate3 {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }  
+  @keyframes animate4 {
+    0% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }  
+  
